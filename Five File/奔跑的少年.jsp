@@ -1,0 +1,34 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Administrator
+  Date: 2020/9/2
+  Time: 23:42
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+    <style>
+        .box1{
+            height: 256px;
+            width: 256px;
+            margin: 0 auto;
+            background-image: url("tupian05/bg2.png");
+            animation: test 1s steps(5) infinite;
+        }
+         @keyframes test {
+             from{
+                background-position: 0 0;
+             }
+             to{
+               background-position: -1280px 0;
+             }
+         }
+
+    </style>
+</head>
+<body>
+<div class="box1"></div>
+</body>
+</html>
